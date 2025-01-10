@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Memory Card Game </h1>
+  <p id="timer">⏱ Time: 0s</p>
+  <div class="game-board"></div>
+
+  <!-- مؤثرات الاحتفال -->
+  <div class="celebration hidden">
+    <h2>🎉 Congratulations! 🎉</h2>
+    <button id="play-again">Play Again</button>
+  </div>
+
+  <audio id="win-sound" src="win.mp3"></audio> <!-- صوت الفوز -->
+  <script src="script.js"></script>
+
+  <div class="background-animation">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  
+</body>
+</html>
